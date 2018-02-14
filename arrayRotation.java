@@ -9,7 +9,6 @@ public class arrayRotation{
 		if (d >= arr.length )
 			return;
 		int t =  gcd(d,arr.length);
-		System.out.println("gcd : "+t);
 		for(int i = 0 ; i < t; i++){
 			System.out.println("In loop ");
 			int temp = arr[i];
